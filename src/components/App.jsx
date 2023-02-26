@@ -54,7 +54,7 @@ export const App = () => {
     );
   };
 
-  const onInputChange = event => setFilter(event.target.value);
+ const onInputChange = event => setFilter(event.target.value);
 
   return (
     <div className={css.App}>
@@ -65,8 +65,7 @@ export const App = () => {
       <Filter name={filter} onChange={onInputChange} />
       <ContactList
         items={filterContactsHandler()}
-        deleteContactHandler={deleteContactHandler}
-      />
+        deleteContactHandler={deleteContactHandler}/>
     </div>
   );
 };
