@@ -1,0 +1,37 @@
+.App{
+    display: block;
+    width: 350px;
+    margin: 30px auto;
+    background-color: rgba(221, 185, 207,0.6);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   
+}
+.lowerBox{
+    box-shadow: 10px 5px 5px rgb(84, 69, 69);
+}
+.contacts{
+   text-align: center;
+}
+.phonebook{
+   text-align: center;
+}
+.form{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 15px;
+}
+.formBox{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 20px;
+}
+
+
+.list{
+    margin-bottom: 10px;
+}
+.text{
+    text-align: center;
+}

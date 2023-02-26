@@ -1,0 +1,37 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.form {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 15px;
+box-shadow: 10px 5px 5px 5px rgb(84, 69, 69);
+}
+
+.formBox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.formText {
+    
+    display: block;
+    outline: none;
+    padding: 5px;
+    border-radius: 10px
+}
+
+.formText:focus {
+    outline: 3px solid rgb(207, 8, 18);
+    border-radius: 10px
+}
+
+
+
+.list {
+    margin-bottom: 10px;
+}
